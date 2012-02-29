@@ -9,5 +9,6 @@ group :development do
 end
 
 group :test do
+ gem 'webrat', '0.7.1'
  gem 'rspec', '2.0.0.beta.18'
 end
