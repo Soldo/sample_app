@@ -3,7 +3,7 @@
 }
 
 body {
-	background: #C9C3E6; /* u originalu #cff, C9C3E6, 8D79F2, 133783*/
+	background: #F0F0F0; /* u originalu #cff, C9C3E6, 8D79F2, 133783, a1 - F0F0F0*/
 }
 
 header {
@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-	color: #069;
+	color: #559902;
 	text-decoration: underline;
 }
 
@@ -73,6 +73,7 @@ nav ul li a:visited {
 
 nav ul li a:hover {
 	text-decoration: underline;
+	color: #559902; /*dodano*/
 }
 
 a.signup_button {
@@ -88,6 +89,17 @@ a.signup_button {
 	padding: 20px;
 }
 
+
+/*.loginMan {*/
+/*/*    background-image: url("/public/images/headerSprite.png") !important;*/*/
+/*    background-position: -20px -180px !important;*/
+/*    background-repeat: no-repeat;*/
+/*    display: block;*/
+/*    height: 15px;*/
+/*    margin-right: 10px;*/
+/*    margin-top: -1px;*/
+/*    width: 16px;*/
+/*}*/
 /* Round corners */
 
 .round {
