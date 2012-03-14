@@ -97,6 +97,10 @@ a.signup_button {
 	border-radius:					10px;
 }
 
+section ul li a:hover {
+	color: #559902; /*dodano*/
+}
+
 /* Footer */
 
 footer {
@@ -181,4 +185,12 @@ div.field, div.actions {
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
+}
+
+ul.users {
+	margin-top: 1em;
+}
+
+ul.users li {
+	list-style: none;
 }
