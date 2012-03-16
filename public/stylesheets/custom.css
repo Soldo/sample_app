@@ -89,6 +89,212 @@ a.signup_button {
 	padding: 20px;
 }
 
+
+/* od Twittera */
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #CCCCCC;
+    background-repeat: no-repeat;
+    border-bottom-color: #CCCCCC;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #CCCCCC;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #CCCCCC;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: #CCCCCC;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 18px;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+button.btn::-moz-focus-inner, input.btn[type="submit"]::-moz-focus-inner {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: -moz-use-text-color;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: none;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 0;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: none;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 0;
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+.btn.large {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.btn.small {
+    font-size: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.btn.disabled, .btn.disabled:hover, .btn[disabled] {
+    background-image: none;
+    color: #777777;
+    cursor: default;
+    opacity: 0.65;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+.btn:active, .follow-combo.open .btn-user-actions, .user-dropdown.open {
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.btn {
+    background-color: #DDDDDD;
+    background-image: -moz-linear-gradient(#FFFFFF, #DDDDDD);
+    background-repeat: repeat-x;
+}
+.btn:hover, .follow-combo.open .btn-user-actions, .user-dropdown.open {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    background-color: #D8D8D8;
+    background-image: -moz-linear-gradient(#F8F8F8, #D8D8D8);
+    border-bottom-color: #BBBBBB;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #BBBBBB;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #BBBBBB;
+    border-top-color: #BBBBBB;
+}
+
+.signup-btn {
+    background-color: #FD9A0F;
+    background-image: -moz-linear-gradient(center top , #FEE94F 0pt, #FD9A0F 100%);
+    background-repeat: repeat-x;
+    border-bottom-color: #FFAA22;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #FFAA22;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #FFAA22;
+    border-top-color: #FFAA22;
+}
+.signup-btn:hover, .signup-btn:focus {
+    background-color: #FD9512;
+    background-image: -moz-linear-gradient(center top , #FEDC4D 0pt, #FD9512 100%);
+    background-repeat: repeat-x;
+    border-bottom-color: #EC8B11;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #EC8B11;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #EC8B11;
+    border-top-color: #EC8B11;
+}
+.signup-btn:active {
+    background-image: none;
+}
+
+.web-personalization-footer .primary-btn {
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+.primary-btn, .following.first-hover .follow-btn:hover, .following .follow-btn, .following .follow-button.cancel-hover-style:hover, .following .follow-button {
+    background-color: #019AD2;
+    background-image: -moz-linear-gradient(#33BCEF, #019AD2);
+    background-repeat: repeat-x;
+    border-bottom-color: #057ED0;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #057ED0;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #057ED0;
+    border-top-color: #057ED0;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.primary-btn:hover, .primary-btn:focus {
+    background-color: #0271BF;
+    background-image: -moz-linear-gradient(#2DADDC, #0271BF);
+    background-repeat: repeat-x;
+    border-bottom-color: #096EB3;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #096EB3;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #096EB3;
+    border-top-color: #096EB3;
+}
+/*	color: #fff;*/
+/*	background: #559902; /*prije 006400 */
+
+
+/* end od twittera */
+
 /* Round corners */
 
 .round {
